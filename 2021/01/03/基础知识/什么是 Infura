@@ -9,7 +9,7 @@
     
     <title>
         
-            SocialFi文章归纳总结 |
+            什么是 Infura? |
         
         小八财富
     </title>
@@ -176,7 +176,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">SocialFi文章归纳总结</span>
+            <span class="title-hover-animation">什么是 Infura?</span>
         </div>
 
         
@@ -195,8 +195,8 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2021-12-15 08:38:15</span>
-        <span class="mobile">2021-12-15 08:38</span>
+        <span class="pc">2021-01-03 13:38:15</span>
+        <span class="mobile">2021-01-03 13:38</span>
     </span>
     
         <span class="article-categories article-meta-item">
@@ -204,7 +204,7 @@
             <ul>
                 
                     <li>
-                        <a href="/categories/socialFi/">socialFi</a>&nbsp;
+                        <a href="/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">基础知识</a>&nbsp;
                     </li>
                 
             </ul>
@@ -216,7 +216,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/socialFi/">socialFi</a>&nbsp;
+                        <a href="/tags/Infura/">Infura</a>&nbsp;
                     </li>
                 
             </ul>
@@ -235,10 +235,33 @@
         
 
         <div class="article-content markdown-body">
-            <h4 id="文章归纳"><a href="#文章归纳" class="headerlink" title="文章归纳"></a>文章归纳</h4><ul>
-<li>好文章：<a class="link"   target="_blank" rel="noopener" href="https://three-recorder-52a.notion.site/SocialFi-12-14-1ad9a0c9103341dbba3198e120ece696" >https://three-recorder-52a.notion.site/SocialFi-12-14-1ad9a0c9103341dbba3198e120ece696<i class="fas fa-external-link-alt"></i></a><ul>
-<li>原推：<a class="link"   target="_blank" rel="noopener" href="https://twitter.com/Bit_LittleP/status/1470570303071801348" >https://twitter.com/Bit_LittleP/status/1470570303071801348<i class="fas fa-external-link-alt"></i></a></li>
-</ul>
+            <p>11 月 11 日，因以太坊和 IPFS 的 API 服务供应商 Infura 宕机，导致 MetaMask 数据显示延迟，交易平台 ETH 与 ERC20 代币充提服务受到影响。这一消息立刻引起了社区热议，截止发稿时，受影响的交易平台已逐步恢复，Infura 主节点也已修复。</p>
+<p>虽然开发者和资深业内人士对于 Infura 都有所了解，但不少用户对于 Infura 还较为陌生，因此律动将在本文为读者简单介绍一下Infura。</p>
+<h4 id="什么是-Infura？"><a href="#什么是-Infura？" class="headerlink" title="什么是 Infura？"></a>什么是 Infura？</h4><p>专业一点讲，Infura 是一种 IaaS（Infrastructure as a Service）产品，目的是为了降低访问以太坊数据的门槛。通俗一点讲，Infura 就是一个可以让你的 DApp 快速接入以太坊的平台，不需要本地运行以太坊节点。</p>
+<p>从程序员的角度讲，Infura 就是一个 Web3 供应商 ，背后是负载均衡的 API 节点集群。除此之外，Infura 还可以很方便地接入 IPFS，这是另外一个话题，这里就不讨论了。</p>
+<p>在整个以太坊网络中，需要一种能够降低进入门槛并简化对以太坊数据访问的实用程序。其中最重要的是基础架构即服务（IaaS）产品，而在这方面较为领先的则是 Infura，它为跨行业的开发人员，DApp 团队和企业提供了一套工具，可将其应用程序连接到以太坊网络和其他去中心化平台。</p>
+<p>Infura 是由开发者 Michael Wuehler 开发的以太坊基础设施，最开始时处于独立运营状态。在 2019 年被 ConsenSys 全资收购，变为其下业务部门。在推出之初 Infura 是免费使用的。随后推出了订阅服务，收费标准在每月 50 美元至 1000 美元不等 。不过对于需求较小的开发者或者项目而言，Infura 还是十分友好的。开发者可以免费在 Infura 中创建 3 个项目，每日使用 Infura 的 API 服务提交 10 万次请求。</p>
+<h4 id="Infura-有什么用？"><a href="#Infura-有什么用？" class="headerlink" title="Infura 有什么用？"></a>Infura 有什么用？</h4><p>Infura可以促进对 Web3 的访问。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNly1gy0r1u4pg1j31220gi0tv.jpg" alt="image-20220103201949118"></p>
+<p>Web3 许多最杰出的项目（MetaMask，Aragon，Gnosis，OpenZeppelin 等）都利用 Infura 的 API 将其应用程序连接到以太坊网络。Infura 提供了处理代币启动期间经常出现的短期峰值所需的基础设施服务、以及必要的、长期的扩展解决方案。</p>
+<p>Infura 首席系统工程师 Nicola Cocchiaro 说：「我们的使命是促进以太坊的访问及其提供的机会。」</p>
+<p>「Infura 本质上为任何应用程序提供了必要的工具，使其可以立即在以太坊上开始开发，而无需自己运行复杂的基础架构，」产品负责人 Mike Godsey 说。 「 Infura 为所有使用以太坊区块链的开发人员提供了连接。」</p>
+<h4 id="Infura-API-套件-一个微服务驱动的架构"><a href="#Infura-API-套件-一个微服务驱动的架构" class="headerlink" title="Infura API 套件:一个微服务驱动的架构"></a>Infura API 套件:一个微服务驱动的架构</h4><p>Infura 基础设施最著名的部分是托管的以太坊客户端网络，通过客户端兼容的 JSON-RPC，在 HTTPS 和 WSS 之上支持主网和测试网。以太坊节点只是 Infura 栈的一部分:「我们还建立了第一个公共 IPFS API 和网关，与我们的以太坊 API 一起构建我们的 Web3 开发套件的基础。 」 Cocchiaro介绍到。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNly1gy0r32zfpsj316u0ny76n.jpg" alt="image-20220103202104363"></p>
+<h4 id="为-DApp-生态系统提供动力"><a href="#为-DApp-生态系统提供动力" class="headerlink" title="为 DApp 生态系统提供动力"></a>为 DApp 生态系统提供动力</h4><p>Infura 的模块化扩展解决方案可为任何正在或预期通过以太坊网络，推动大流量的项目释放必要的网络容量。「随着区块链的不断发展，保持本地节点同步并保持最新状态通常会给项目方带来挑战，这些挑战通常与存储，带宽和内存使用情况的组合有关，」Cocchiaro 说。「此外，高流量 DApp 还涉及扩展性，有时是暂时的，有时是更永久的，这在本地基础架构中很难解决。」</p>
+<h4 id="采用-Infura-的项目和公司"><a href="#采用-Infura-的项目和公司" class="headerlink" title="采用 Infura 的项目和公司"></a>采用 Infura 的项目和公司</h4><p>在 Infura 的官方网站上，律动发现有很多我们熟知的公司和项目都利用了 Infura 服务。例如，以太坊轻钱包 MetaMask 使用 Infura 的零客户端方式，连接 Infura 的远程基础设施，以服务超过数百万的用户。（律动注：MetaMask 除了使用Infura服务之外，也运行了自己的节点）</p>
+<p>对于像谜链猫这种更看重可扩展性的项目来说，Infura 会与整个生态系统的开发人员合作，以保持网络的平稳运行。</p>
+<p>当然，还有很多交易平台也采用了 Infura 的服务，例如 Upbit、Bithumb 等。其中也不乏一些去中心化协议，如 0x 和 MyCrypto 等都依赖 Infura 向以太坊主网广播交易数据和智能合约。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008i3skNly1gy0r64ql0nj30u00vuwhj.jpg" alt="image-20220103202359914"></p>
+<h4 id="对于过于依赖-Infura-的担忧"><a href="#对于过于依赖-Infura-的担忧" class="headerlink" title="对于过于依赖 Infura 的担忧"></a>对于过于依赖 Infura 的担忧</h4><p>早在 2018 年，就已有开发者对于 Infura 表示出了担忧。Parity Technologies 的一位以太坊开发者 Afri Schoedon 表示，以太坊网络不能依赖 Infura 来处理每天 100 亿次请求。Schoedon 认为，过度依赖 Infura 将增加协议的中心化。</p>
+<p>虽然像今天这样出现 Infura 宕机，导致部分平台和钱包受到影响的情况是小概率事件。但是一旦出现，将会对项目及用户产生较大影响，尤其如果正值行情出现大波动时期，或会造成资产损失。因此，也有不少开发者建议项目或交易所运行自己的独立节点。</p>
+<p><strong>参考资料</strong>：</p>
+<ul>
+<li><p>《 Why Infura Is the Secret Weapon of Ethereum Infrastructure 》</p>
+</li>
+<li><p>《Dev: Ethereum May Fail if it Relies on Infura to Run Nodes, Potential Solution》</p>
+</li>
+<li><p>《Infura：一键接入以太坊》</p>
 </li>
 </ul>
 <hr>
@@ -256,7 +279,7 @@
             <ul class="post-tags-box">
                 
                     <li class="tag-item">
-                        <a href="/tags/socialFi/">#socialFi</a>&nbsp;
+                        <a href="/tags/Infura/">#Infura</a>&nbsp;
                     </li>
                 
             </ul>
@@ -268,33 +291,18 @@
                     <div class="article-prev">
                         <a class="prev"
                            rel="prev"
-                           href="/2021/12/17/Dao/PleasrDAO%E7%9A%84%E7%A0%94%E7%A9%B6/"
+                           href="/2021/12/12/%E7%BD%AE%E9%A1%B6/%E8%BF%91%E6%9C%9F%E5%8F%91%E7%94%9F%E7%9A%84%E5%A4%A7%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BB%93%EF%BC%88%E4%B8%8D%E5%AE%9A%E6%9C%9F%E6%9B%B4%E6%96%B0%EF%BC%89/"
                         >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">PleasrDao的研究</span>
+                                <span class="post-nav-title-item">近期发生的大事件总结（不定期更新）</span>
                                 <span class="post-nav-item">上一篇</span>
                             </span>
                         </a>
                     </div>
                 
-                
-                    <div class="article-next">
-                        <a class="next"
-                           rel="next"
-                           href="/2021/12/15/%E5%8E%9F%E5%AE%87%E5%AE%99/BigTime%E7%A0%94%E7%A9%B6%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/"
-                        >
-                            <span class="title flex-center">
-                                <span class="post-nav-title-item">BigTime研究分析报告</span>
-                                <span class="post-nav-item">下一篇</span>
-                            </span>
-                            <span class="right arrow-icon flex-center">
-                              <i class="fas fa-chevron-right"></i>
-                            </span>
-                        </a>
-                    </div>
                 
             </div>
         
@@ -396,7 +404,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%BD%92%E7%BA%B3"><span class="nav-number">1.</span> <span class="nav-text">文章归纳</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Infura%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">什么是 Infura？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Infura-%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">Infura 有什么用？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Infura-API-%E5%A5%97%E4%BB%B6-%E4%B8%80%E4%B8%AA%E5%BE%AE%E6%9C%8D%E5%8A%A1%E9%A9%B1%E5%8A%A8%E7%9A%84%E6%9E%B6%E6%9E%84"><span class="nav-number">3.</span> <span class="nav-text">Infura API 套件:一个微服务驱动的架构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA-DApp-%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F%E6%8F%90%E4%BE%9B%E5%8A%A8%E5%8A%9B"><span class="nav-number">4.</span> <span class="nav-text">为 DApp 生态系统提供动力</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%87%E7%94%A8-Infura-%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%92%8C%E5%85%AC%E5%8F%B8"><span class="nav-number">5.</span> <span class="nav-text">采用 Infura 的项目和公司</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E4%BA%8E%E8%BF%87%E4%BA%8E%E4%BE%9D%E8%B5%96-Infura-%E7%9A%84%E6%8B%85%E5%BF%A7"><span class="nav-number">6.</span> <span class="nav-text">对于过于依赖 Infura 的担忧</span></a></li></ol>
     </div>
 </div>
         </aside>
