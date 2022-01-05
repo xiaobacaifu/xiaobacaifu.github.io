@@ -9,7 +9,7 @@
     
     <title>
         
-            SocialFi文章归纳总结 |
+            白话解读V神最新发文：以太坊扩容的终局之战 |
         
         小八财富
     </title>
@@ -176,7 +176,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">SocialFi文章归纳总结</span>
+            <span class="title-hover-animation">白话解读V神最新发文：以太坊扩容的终局之战</span>
         </div>
 
         
@@ -195,8 +195,8 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2021-12-15 08:38:15</span>
-        <span class="mobile">2021-12-15 08:38</span>
+        <span class="pc">2022-01-22 05:38:15</span>
+        <span class="mobile">2022-01-22 05:38</span>
     </span>
     
         <span class="article-categories article-meta-item">
@@ -204,7 +204,7 @@
             <ul>
                 
                     <li>
-                        <a href="/categories/socialFi/">socialFi</a>&nbsp;
+                        <a href="/categories/Layer2/">Layer2</a>&nbsp;
                     </li>
                 
             </ul>
@@ -216,7 +216,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/socialFi/">socialFi</a>&nbsp;
+                        <a href="/tags/Rollup/">Rollup</a>&nbsp;
                     </li>
                 
             </ul>
@@ -235,13 +235,72 @@
         
 
         <div class="article-content markdown-body">
-            <h4 id="文章归纳"><a href="#文章归纳" class="headerlink" title="文章归纳"></a>文章归纳</h4><ul>
-<li>好文章：<a class="link"   target="_blank" rel="noopener" href="https://three-recorder-52a.notion.site/SocialFi-12-14-1ad9a0c9103341dbba3198e120ece696" >https://three-recorder-52a.notion.site/SocialFi-12-14-1ad9a0c9103341dbba3198e120ece696<i class="fas fa-external-link-alt"></i></a><ul>
-<li>原推：<a class="link"   target="_blank" rel="noopener" href="https://twitter.com/Bit_LittleP/status/1470570303071801348" >https://twitter.com/Bit_LittleP/status/1470570303071801348<i class="fas fa-external-link-alt"></i></a></li>
+            <p>引用地址：<a class="link"   target="_blank" rel="noopener" href="https://www.hellobtc.com/kp/du/12/3857.html" >https://www.hellobtc.com/kp/du/12/3857.html<i class="fas fa-external-link-alt"></i></a></p>
+<p>最近，V神发表了一篇关于以太坊扩容终局之战的文章，取名《Endgame》，很多朋友可能已经看到了。</p>
+<p>但V神发的东西，对于刚入圈的朋友理解起来还是有难度的，所以我们在这里做一个白话解读版，希望能够对入圈不久，或是对于理解晦涩技术文有难度的朋友有所帮助。</p>
+<p><strong>看完全文如果感觉难度较高，那只需要先记住以下两个中心思想就好了：</strong></p>
+<p>1、不管你是以太坊的朋友还是杀手，<a class="link"   target="_blank" rel="noopener" href="http://mp.weixin.qq.com/s?__biz=MzUyNzE4MDM2MA==&mid=2247511500&idx=1&sn=06b5bdc815d9e16de44e2192481c2f56&chksm=fa019aebcd7613fdeccf5b9724cf50ff85e9ac18dad43e79cbcdb63954f1f019fd276c9bfa9a&scene=21#wechat_redirect" >加入Rollup阵营<i class="fas fa-external-link-alt"></i></a>吧，大家一起Roll起来！</p>
+<p>2、从以太坊Rollup区块生产的中心化长期来看，可能是个不可避免的趋势，But，That’s OK……</p>
+<p>下文我们将对这两句话进行详细解读。</p>
+<p> <strong>01</strong><br><strong>加入Rollup阵营</strong></p>
+<blockquote>
+<p>不管你是以太坊的朋友还是杀手，加入Rollup阵营吧，大家一起Roll起来。</p>
+</blockquote>
+<p>为什么会这么说？</p>
+<p>因为当前的“大区块链”（V神没有具体点名，但大家都心知肚明，BSC、Solana等链）高区块频率，大区块大小，TPS几百上千的，<strong>简单来说就是家用机或者一般服务器没法跑节点那种。</strong></p>
+<p>你们这几十个节点，最多百来八十个该怎么“自证清白”，毕竟节点风格免不了看上去就比较“中心化”，和区块链的去中心化精神有所违背。</p>
+<p>但也没事我们可以补救，方法就是跟着以太坊学习，引入Rollup。不管是OP那种欺诈证明，还是ZK那种密码学证明，反正你得Roll起来。</p>
+<p><strong>具体方法如下：</strong></p>
+<p>1、添加二层的抵押。</p>
+<p>区块中的交易被分割成多个“桶”，每个二级质押者随机分配到其中一个桶<strong>去验证默克尔树的状态根</strong>，<strong>每个桶2/3验证者签署了之后一个区块才会被接受</strong>，把区块验证这个事儿给“去中心化”了。</p>
+<p>2、跟以太一样应用OP（欺诈证明）或者ZK-Snark。</p>
+<p>3、引入数据可用性采样。让用户可以使用轻客户端随机选一些块来验证，相当于给人民权利去随机抽查你有没有干坏事。</p>
+<p>4、添加二级交易渠道以防止审查。</p>
+<p>那么，最终这些手段用上之后，我们得到了一个什么样的BSC或者SOL（或是任何其他大区块链）？</p>
+<ul>
+<li>它们的出块的节点依旧是很集中的；</li>
+<li>然而它们的区块验证是去信任化的，而且高度分散；</li>
+<li>从美学上比较丑陋，但效果好就行了。</li>
 </ul>
-</li>
-</ul>
+<p><strong>V神的重点就是做了一个相对的妥协，把去中心化这个概念从出块挪到了验证。</strong></p>
+<p>既然为了TPS，为了容纳更多的用户和更好的体验，出块的中心化不可避免，那至少我们可以<strong>去中心化地验证这些偏中心化的节点</strong>有没有“干正事儿”。</p>
+<p>毕竟，区块链的目的其实是去信任化，而作为公链其本质则是非许可的，去中心化只是一种特质，或者说手段。</p>
+<p>既然“出块”我们做不到去中心化，那么从“验证”入手，只要验证可以做到去中心化也是可以“曲线救国”，实现区块链去信任化的主要目的。</p>
+<p> <strong>02</strong><br><strong>以太坊Rollup*<em>是个不可避免的趋势*</em></strong></p>
+<p><img src="https://www.hellobtc.com/d/file/202112/309b603cc0c6770cb56468d7c0ddd356.png" alt="image.png"></p>
+<blockquote>
+<p>从以太坊Rollup这边区块生产的中心化长期来看，可能是个不可避免的趋势，But，That’s OK……</p>
+</blockquote>
+<p>V神说完了以太坊的大区块党竞争链或是姊妹链之后，开始说以太坊本身了。</p>
+<p><strong>然后结论跟上面的大区块链观点有类似的地方，就是以太这边，Rollup扩容的区块生产（出块），可能也会慢慢变得中心化。</strong></p>
+<p>但没事，刚才说大区块链的时候就说了，只要咱把验证这事儿给去中心化了，效果就还是杠杠的。</p>
+<p>为什么以太坊Rollup家族出块也会慢慢走上中心化之路呢？</p>
+<p><strong>两种可能性：</strong></p>
+<p>1、一个是有一个Rollup特别厉害，不管是Arbitrum、Optimism、Zksync还是哪个新生代Rollup，硬件超强、TPS超高、费用超低、体验超好。</p>
+<p>在Layer2混战之后一统江湖，最后大家都跑来这个Rollup链了（本质上这成了一个与以太坊Layer1平行世界的Rollup Layer2）。</p>
+<p>那么，这会是一个什么样的世界? </p>
+<p><strong>在这个世界中区块生产是集中的，区块验证是去信任的和高度去中心化的，这和刚才提到的大区块链风格是一样的。</strong></p>
+<p>要理解V神这个观点，你必须有关于Rollup的基础知识，清晰的了解Rollup里，<strong>定序器（sequencer）节点的硬件要求是很高的</strong>，很多Rollup一开始就只用官方的一个中心化的定序器。</p>
+<p>但当你使用某个中心化定序器或证明器的Rollup网络时，你只是在信任和抗审查性方面有所妥协，而不是在安全性方面妥协。</p>
+<p>Rollups定序器的运营者并不能盗走你的资金，换句话说，这个中心化定序器节点即便作恶或者瘫痪，也最多导致链的瘫痪，但你的资金依旧是安全的。</p>
+<p><strong>2、另一种可能性是Rollup一番厮杀之后，无人一统江湖，大家百花齐放，竞争+合作。</strong></p>
+<p>以太坊Rollup最终变成一个类似Cosmos的多链风格，大家在各个Rollup上分别做不同的事，共享着ETH Layer1的安全性，然后通过各种桥在各个Rollup上跳来跳去……</p>
+<p><strong>那么，大概率会出现一个什么局面呢？</strong></p>
+<p>1、跨域MEV（矿工可提取价值）会有节点发现，同时做几个Rollup的节点好处多多，<strong>现如今单独一个ETH Layer1上面MEV的机会就已经不少了</strong>，甚至有专门因此而诞生的项目。</p>
+<p>比如Eden，到时候多个Rollup并存，这种跨域MEV的机会只多不少，在经济激励下，会有节点同时身兼多个Rollup的节点。</p>
+<p>2、哪怕抛开跨域MEV这个经济激励，单纯的就技术专精而言，<strong>一个好的 Optimism块生产者大概率也是一个好的Arbitrum块生产者</strong>，一个好的 Polygon块生产者，甚至是一个好的以太坊基础层的块生产者……</p>
+<p>就像一个好的奔驰销售大概率会是一个好的宝马销售，同样也大概率会是一个好的奥迪销售。</p>
+<p>这种资源和技术会有一个聚集性，最终是那些技术实力最强，口碑最好的节点去担任各个Rollup的节点，重叠性很高。</p>
+<p>最终你发现，大区块链、一统江湖的一个单一Rollup、百花齐放的多个Rollup，这三种路线图最终都走向了同一个结果：<strong>区块生产是中心化的，但区块验证是去信任和高度分散的，并且仍然可以防止审查。</strong></p>
+<p> <strong>03</strong><br><strong>小结</strong></p>
+<p>最后，V神放话说别急着预测哪个Rollup会赢，保持开放的探索心态。言外之意就是，到时候几个Rollup都老老实实关注吧，成年人不做选择，都要。</p>
+<p>另外，根据ETH的一贯作风，这个终局还得好几年，跨域MEV研究也才刚起步，但道路是曲折的，前途还是光明的！</p>
 <hr>
+<p><strong>引用文章</strong></p>
+<ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.hellobtc.com/kp/du/12/3857.html" >https://www.hellobtc.com/kp/du/12/3857.html<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+<p><strong>Social Link</strong></p>
 <p>Blog：<a class="link"   target="_blank" rel="noopener" href="https://xiaobacaifu.github.io/" >https://xiaobacaifu.github.io/<i class="fas fa-external-link-alt"></i></a></p>
 <p>Twitter：<a class="link"   target="_blank" rel="noopener" href="https://twitter.com/xiaobacaifu" >https://twitter.com/xiaobacaifu<i class="fas fa-external-link-alt"></i></a></p>
 <p>Telegram：<a class="link"   target="_blank" rel="noopener" href="https://t.me/xiaobacaifu" >https://t.me/xiaobacaifu<i class="fas fa-external-link-alt"></i></a></p>
@@ -256,7 +315,7 @@
             <ul class="post-tags-box">
                 
                     <li class="tag-item">
-                        <a href="/tags/socialFi/">#socialFi</a>&nbsp;
+                        <a href="/tags/Rollup/">#Rollup</a>&nbsp;
                     </li>
                 
             </ul>
@@ -265,29 +324,14 @@
         
             <div class="article-nav">
                 
-                    <div class="article-prev">
-                        <a class="prev"
-                           rel="prev"
-                           href="/2021/12/17/Dao/PleasrDAO%E7%9A%84%E7%A0%94%E7%A9%B6/"
-                        >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex-center">
-                                <span class="post-nav-title-item">PleasrDao的研究</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
                 
                     <div class="article-next">
                         <a class="next"
                            rel="next"
-                           href="/2021/12/15/%E5%8E%9F%E5%AE%87%E5%AE%99/BigTime%E7%A0%94%E7%A9%B6%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/"
+                           href="/2022/01/06/%E5%8E%9F%E5%AE%87%E5%AE%99/%E8%80%81%E7%99%BD%E5%85%B3%E4%BA%8ERNDR%E7%9A%84%E7%A0%94%E7%A9%B6/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">BigTime研究分析报告</span>
+                                <span class="post-nav-title-item">老白关于RNDR的研究</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex-center">
@@ -396,7 +440,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%BD%92%E7%BA%B3"><span class="nav-number">1.</span> <span class="nav-text">文章归纳</span></a></li></ol>
+        
     </div>
 </div>
         </aside>
